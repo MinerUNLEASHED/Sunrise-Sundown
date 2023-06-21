@@ -38,17 +38,3 @@ sunrise_sunset_label.pack()
 time_label.pack()
 app_frame.pack(fill=tk.BOTH, side=tk.LEFT, expand=True)
 display_window.mainloop()
-
-
-'''
-reworked tkinter code
-'''
-# display_window = tk.Tk()
-# display_window.title('Weather App')
-# display_window.geometry('400x400')
-# display_window.configure(bg='#34A2FE')
-#
-# img_path = 'given_image.png'
-# img = ImageTk.PhotoImage(Image.open(img_path))
-#
-# display_window.mainloop()
